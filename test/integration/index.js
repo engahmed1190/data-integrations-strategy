@@ -2,7 +2,6 @@
 
 const chai = require('chai');
 const expect = chai.expect;
-const Promisie = require('promisie');
 const MOCKS = require('../mocks');
 const path = require('path');
 const GENERATE = require(path.join(__dirname, '../../index'));
